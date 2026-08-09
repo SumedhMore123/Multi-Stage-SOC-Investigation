@@ -1,0 +1,15 @@
+# Raw capture and log exclusions
+pcaps/*
+!pcaps/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# File extensions to ignore
+*.pcap
+*.pcapng
+*.evtx
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
